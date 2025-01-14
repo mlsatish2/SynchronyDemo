@@ -1,0 +1,11 @@
+{
+  "status": "SUCCESS",
+  "cacheResponse": [
+    {
+      "id": 1,
+      "name": "name",
+      "email": "name@gmail.com",
+      "age": 25
+    }
+  ]
+}

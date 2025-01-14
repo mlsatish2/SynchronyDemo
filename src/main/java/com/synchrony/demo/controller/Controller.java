@@ -61,7 +61,7 @@ public class Controller {
 	}
 
 	@DeleteMapping("/delete/user")
-	@Operation(summary = "This endpoint is used to delete userdetails from Redis Cache and DB based pn given id/cache key.")
+	@Operation(summary = "This endpoint is used to delete userdetails from Redis Cache and DB based on given id/cache key.")
 	public ResponseEntity<Response> processDelteUserRequest(@RequestBody Request request)
 			throws InterruptedException, ExecutionException {
 		Response registrationResponse = service.deleteUser(request);
